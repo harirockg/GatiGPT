@@ -75,6 +75,7 @@ function ChatWindow() {
         <div className="chatWindow">
             <div className="navbar">
                 <span>GatiGPT <i className="fa-solid fa-chevron-down"></i></span>
+                <span>⚠️ Due to insufficient OpenAI credits, chat is currently unavailable. Will be restored soon. </span>
                 <div className="userIconDiv" onClick={handleProfileClick}>
                     <span className="userIcon"><i className="fa-solid fa-user"></i></span>
                 </div>
